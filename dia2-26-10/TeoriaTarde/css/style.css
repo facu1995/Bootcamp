@@ -16,7 +16,7 @@ section{
     border: 1px solid black;
 }
 .box-a{
-    background-image: url(images/imagen.jpeg);
+    background-image: url(../images/imagen.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
