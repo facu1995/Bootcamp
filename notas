@@ -58,3 +58,17 @@ navbar
 
 
     https://es.learnlayout.com/frameworks.html
+
+    https://www.frontendmentor.io/challenges
+
+    rollbar.com
+    
+    
+
+    position:static |relative |absolute|  fixed
+    no posicionados static - top,-left-right, buttom
+    posicionados: relative | absolute | fixed |-top,left,right,bottom
+    relative: body 
+    absolute: elemento relative 1 body (padre)
+    fixed: viewport
+    
