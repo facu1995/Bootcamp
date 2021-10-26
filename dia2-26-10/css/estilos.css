@@ -1,0 +1,39 @@
+body {
+    background-color: #ffe3aa;
+}
+
+section{
+    width:700px;
+    margin:auto;
+}
+.tarjeta{
+    display: inline-block;
+    width: 200px;
+    margin: 3px 1px;
+    border: 1px solid #0000008f;
+    background-color: antiquewhite;
+}
+
+.nombre,.descripcion,.precio{
+    padding: 5px 5px 5px 8px;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: 125px;
+}
+
+.nombre{
+    font-style: oblique;
+    font-size: 17px;
+    font-family: cursive;
+}
+.precio{
+    font-size: 17px;
+    font-family: cursive;
+}
+.descripcion{
+    min-height: 37px;
+    
+}
