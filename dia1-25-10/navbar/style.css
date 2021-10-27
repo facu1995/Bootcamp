@@ -1,0 +1,88 @@
+body{
+  background-color: #e9f2f5;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav{
+  background-color:lightgrey;
+  height: 100px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
+ul li a{
+  color:#000;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  color: white;
+
+}
+
+main{
+  height: 70vh;
+  background-image: url("https://picsum.photos/id/237/800/800");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main h1{
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+footer{
+  height: 15vh;
+  background-color: lightgray;
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+  min-height: 70vh;
+}
+
+.forminput{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.formulario label{
+  width: 15ch;
+}
+
+.forminput{
+  margin-bottom: 30px ;
+
+}
+
+form{
+  margin-top: 60px;
+  width:40%;
+}
+.footerUl{
+  display: flex;
+  padding-top: 30px ;
+  align-items: center;
+  flex-direction: column;
+}
