@@ -72,3 +72,28 @@ navbar
     absolute: elemento relative 1 body (padre)
     fixed: viewport
     
+
+
+    vite 
+    rollupjs:
+
+justify-content: alinea eje X ( start, end, center, space-between/around) 
+align-items: eje Y (start, end, center, strech) 
+align-content: sirve para cuando hay varias lineas de cajas
+
+
+1)agarrar esa pagina del primer dia
+  proyectos
+
+
+2) tarjeta 
+
+background-blend-mode: ;
+
+
+
+para fondos
+unsplash.com
+
+para logos
+https://es.freelogodesign.org/
