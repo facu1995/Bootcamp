@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* div{
+    border:1px solid black;
+} */
+section{
+    background-image: url(../images/pattern-background-desktop.svg);
+    height:100vh;
+    background-size: cover;
+}
+.card{
+    position: relative;
+    top:10px;
+    left:10px;
+    width: 300px;
+    height: 449px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.card-img{
+    background-image: url(../images/illustration-hero.png.svg);
+    background-repeat: no-repeat;
+    height:150px;
+    background-size: cover;
+}
+.card-info{
+    text-align: center;
+}
+.card-info h3{
+    padding: 25px 0 10px 0;
+}
+.card-info p{
+    padding: 5px 0 15px 0;
+}
+.card-pagar{
+    margin: 0 auto;
+    background: #e8e9f9;
+    width: 229px;
+    border-radius: 9px;
+    padding: 18px 16px;
+}
+.card-pagar-icono{
+    background-image: url(../images/icon-music.svg);
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    margin: 0 5px 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.card-pagar-texto{
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+.card-pagar-enlace{
+    display: inline-block;
+    position: relative;
+    top:-10px;
+    left:23px
+}
+.boton1{
+    color: white;
+    margin: 10px auto; 
+    display: block;
+    width:80%;
+    height: 40px;
+    background: #4b4bc9;
+    border: none;
+    border-radius: 8px;
+}
+.enlace-cancel{
+    position: relative;
+    left:34%;
+}
+
