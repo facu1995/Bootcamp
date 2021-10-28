@@ -26,15 +26,11 @@ section{
 .card-img {
     background-image: url(https://images.unsplash.com/photo-1574007557239-acf6863bc375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80);
     height: 300px;
-    background-size: cover;
-    background-position: -7px;
+    height: 294px;
+    background-size: 128%;
+    background-repeat: no-repeat;
+    background-position: -25px 36px;
 }
-/* .card-info{
-    background-color: #e4f2fd;
-    display:flex;
-    padding: 20px 0 10px 20px;
-    align-items: center;
-} */
 
 
 .card-icon{
@@ -48,7 +44,7 @@ section{
     color:#fff;
     padding: 0 9px 0 0
 }
-.card-info{
+.card-perfil{
     background-color: #e4f2fd;
     padding:12px 0 12px 20px
 }

@@ -74,7 +74,11 @@ navbar
     
 
 
-    vite 
+    vite buscar
+
+
+
+
     rollupjs:
 
 justify-content: alinea eje X ( start, end, center, space-between/around) 
@@ -113,3 +117,9 @@ para centrar;
 top:50%;
 left:50%;
 transform:translate(-50%,-50%);
+
+
+Juegos
+https://codepip.com/games/grid-garden/
+https://flukeout.github.io/
+
