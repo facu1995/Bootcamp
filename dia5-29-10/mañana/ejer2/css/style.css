@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:15px;
+}
+body{
+    background: aliceblue;
+    height:100vh;
+}
+section{
+    /* width: auto; */
+    margin: 0 auto;
+    background:#fff;
+    overflow: auto;
+    width: 600px;
+}
+/* .img{
+    display: inline-block;
+    background-image: url(http://bit.ly/2tMBBTd);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: contain;
+    width: auto;
+} */
+.info{
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+
+}
+
+img{
+    width: 49%;
+    display: inline-block;
+}
+div, section{
+    border:1px solid black;
+}

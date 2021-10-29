@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:15px;
+}
+body{
+    background: aliceblue;
+    height:100vh;
+}
+section{
+    /* width: auto; */
+    margin: 0 auto;
+    background:#f6f3fe;
+    overflow: auto;
+    width: 700px;
+}
+/* .img{
+    display: inline-block;
+    background-image: url(http://bit.ly/2tMBBTd);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: contain;
+    width: auto;
+} */
+.info{
+    text-align: center;
+}
+.info h2{
+    font-family: 'Old Standard TT', serif;
+    margin: 25px 25px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.9rem;
+    position: relative;
+}
+.titulo{
+    position: relative;
+}
+.titulo-new{
+    display: inline-block;
+    position: absolute;
+    left: 168px;
+    top: 17px;
+    width: 27px;
+}
+
+.titulo-new img{
+    width: 100%;
+}
+.titulo-puntuacion{
+    position: absolute;
+    top: 54px;
+    left: 30px;
+    color: gold;
+    font-size: 0.7rem;
+}
+
+.cuerpo p{
+    font-family: 'Farsan', cursive;
+    font-size: 0.8rem;
+    color: rgb(177, 177, 177);
+    font-weight: 50;
+    margin: 10px 25px 32px 0;
+}
+.imagenPrincipal{
+    width: 49%;
+    float: right;
+}
+
+.precio{
+    color:#fff;
+    background: #333333;
+    display: inline-block;
+
+}
+.pagar button{
+    background-color:#49c608;
+    padding:10px 30px;
+    border-radius:0px 5px 5px 0px;
+    border: none;
+    color:#fff;
+}
+
+div, section{
+    border:1px solid black;
+}
