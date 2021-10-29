@@ -20,6 +20,7 @@ section{
 } */
 .info{
     text-align: center;
+    width: 50%;
 }
 .info h2{
     margin: 23px 25px;
@@ -60,7 +61,7 @@ section{
     margin: 36px 25px 32px 0;
 }
 .imagenPrincipal{
-    width: 49%;
+    width: 50%;
     float: right;
     height: 297px;
 }
