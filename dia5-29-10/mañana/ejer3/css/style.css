@@ -21,8 +21,7 @@ section{
     text-align: center;
 }
 .info h2{
-    font-family: 'Old Standard TT', serif;
-    margin: 25px 25px;
+    margin: 23px 25px;
     text-align: left;
     font-weight: 500;
     font-size: 1.9rem;
@@ -31,11 +30,14 @@ section{
 .titulo{
     position: relative;
 }
+.titulo h2{
+    font-family: 'Old Standard TT', serif;
+}
 .titulo-new{
     display: inline-block;
     position: absolute;
-    left: 168px;
-    top: 17px;
+    left: 177px;
+    top: -5px;
     width: 27px;
 }
 
@@ -44,18 +46,17 @@ section{
 }
 .titulo-puntuacion{
     position: absolute;
-    top: 54px;
+    top: 37px;
     left: 30px;
     color: gold;
     font-size: 0.7rem;
 }
 
 .cuerpo p{
-    font-family: 'Farsan', cursive;
     font-size: 0.8rem;
     color: rgb(177, 177, 177);
     font-weight: 50;
-    margin: 10px 25px 32px 0;
+    margin: 36px 25px 32px 0;
 }
 .imagenPrincipal{
     width: 49%;
@@ -63,27 +64,45 @@ section{
     height: 297px;
 }
 
+p{
+    font-family: 'Farsan', cursive;
+}
 
 .pagar{
-    background: #333333;
-    width: 152px;
-    margin: 0 0 0 92px;
+    /* background: #333333; */
+    width: 166px;
+    margin: 0px 0 0 71px;
     overflow: hidden;
+    border-radius: 8px;
+    height: 35px;
+    position: relative;
 }
 .precio{
+    background: #333333;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    overflow: hidden;
+}
+.precio p {
     color:#fff;
-    display: inline-block;
-
-
+    /* display: inline-block; */
+    height: 50px;
+    margin:  0;
+    padding: 11px;
 }
 .pagar button{
     background-color: #49C609;
-    padding:10px 30px;
-    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    top: -1px;
+    left: 48px;
+    padding: 12px 28px 15px 24px;
+    /* width: 60%; */
+    /* border-radius: 0px 5px 5px 0px; */
     border: none;
     color:#fff;
 }
 
 div, section{
-    border:1px solid black;
+    /* border:1px solid black; */
 }
