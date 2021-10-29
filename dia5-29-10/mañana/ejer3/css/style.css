@@ -1,5 +1,5 @@
 body{
-    background: aliceblue;
+    background: #a6d5ff;
     height:100vh;
 }
 section{
@@ -8,6 +8,7 @@ section{
     background:#f6f3fe;
     overflow: auto;
     width: 630px;
+    border-radius:5px;
 }
 /* .img{
     display: inline-block;
