@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+}
+
+section{
+    background-image: url(https://i.picsum.photos/id/737/2880/1920.jpg?hmac=J1s6x8nPJRLhI73881x3UfRnL7HN1QPF8GQLyun1nKM);
+    background-size: 169%;
+    background-position: -180px -98px;
+    background-repeat: no-repeat;
+    background-color: rgb(1 37 189 / 51%);
+    background-blend-mode: overlay;
+    height: 500px;
+    width: 600px;
+}
+
+form{background-color: rgb(56 151 241 / 31%);background-blend-mode: overlay;padding: 50px 25px 40px 25px;position: relative;left:50%;top:25%;transform:translate(-50%,-25%);width: 250px;text-align: center;color: #fff;}
+form h1{
+    padding:10px 0
+}
+form h1{
+    padding:10px 0
+}
+input,button{
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 235px;
+    height: 25px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto Condensed';
+    font-size:0.9rem;
+}
+
+.boton1{
+    background:#0172ff;
+    height: 28px;
+}
+.boton2{
+    background:none;
+}
+form> input{
+    padding:0 0 0 10px;
+    font-size:0.6rem;
+    background: none;
+    color: #fff;
+    background-color: rgb(149 169 255 / 47%);
+    background-blend-mode: overlay;
+}
+
+form> input::placeholder{
+    color:#fff;
+    font-size:0.7rem;
+
+}
