@@ -16,7 +16,8 @@ section{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 10px;
-    gap: 10px;
+    gap: 10px
+;
 }
 .card{
     display: flex;
