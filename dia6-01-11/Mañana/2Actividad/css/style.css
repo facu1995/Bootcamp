@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:15px;
+}
+
+
+section{
+    background: #262626;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    color: white;
+    height: 421px;
+    border-radius: 15px;
+    
+}
+
+.card p{
+    font-size: 0.9rem;
+    padding:5px
+}
+
+button{
+    margin:20px 0;
+    width:85%;
+    border: none;
+    border-radius: 8px;
+    height:25px;
+    font-size: 0.8rem;
+    font-weight:bold;
+}
+
+.card-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border:none;
+    margin: 20px 0;
+    box-shadow: 0px 9px 22px -12px rgb(0 0 0);
+}
+.tipo{
+    font-weight: 100;
+}
+
+.precio{
+    position: relative;
+}
+.precio-icono{
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: 100;
+    top: 5px;
+    left: -20px;
+}
+
+.precio h1{
+    padding: 14px 0 15px 0;
+    font-size: 3.2rem;
+    font-weight: 1;
+}
+.card-img i{
+    font-size:3rem;
+    position: relative;
+    top: 17px;
+    left: 14px;
+}
+.card1{
+    background: rgb(105,175,245);
+    background: linear-gradient(138deg, rgba(105,175,245,1) 0%, rgba(158,109,231,1) 54%, rgba(237,10,211,1) 100%);
+}
+.card-img1{
+    background: rgb(105,175,245);
+    background: linear-gradient(138deg, rgba(105,175,245,1) 0%, rgba(142,129,235,1) 38%, rgba(237,10,211,1) 100%); 
+}
+
+.card2{
+    background: rgb(243,40,210);
+background: linear-gradient(138deg, rgba(243,40,210,1) 0%, rgba(254,228,107,1) 100%);
+}
+.card-img2{
+    background: rgb(243,40,210);
+    background: linear-gradient(138deg, rgba(243,40,210,1) 0%, rgba(254,228,107,1) 100%);
+}
+
+
+.card3{
+    background: rgb(150,83,251);
+    background: linear-gradient(138deg, rgba(150,83,251,1) 0%, rgba(40,249,121,1) 100%);
+}
+.card-img3{
+    background: rgb(150,83,251);
+background: linear-gradient(138deg, rgba(150,83,251,1) 0%, rgba(40,249,121,1) 100%);
+}
