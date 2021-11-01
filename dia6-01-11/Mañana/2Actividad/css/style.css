@@ -87,6 +87,9 @@ button{
     background: rgb(105,175,245);
     background: linear-gradient(138deg, rgba(105,175,245,1) 0%, rgba(142,129,235,1) 38%, rgba(237,10,211,1) 100%); 
 }
+.card-img2{
+    transform:rotate(-45deg);
+}
 
 .card2{
     background: rgb(243,40,210);
