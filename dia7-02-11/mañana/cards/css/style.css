@@ -27,9 +27,9 @@ body{
     margin: 0 15px 0 0;
 }
 .superior input{
-    padding: 3px;
+    padding: 5px 5px;
     margin: 5px 0 17px 5px;
-    width: 230px;
+    width: 304px;
     background: #1d283c;
     border: none;
     border-radius: 5px;
@@ -60,6 +60,7 @@ body{
     height:190px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius:4px;
 }
 .card h3{
@@ -93,6 +94,10 @@ body{
     border-radius:5px;
     display: flex;
     align-items: center;
+}
+.active p{ 
+    display: list-item;
+    list-style-type: disc;
 }
 .disabled{
     background: #29374f;
