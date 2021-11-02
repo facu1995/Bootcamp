@@ -3,7 +3,7 @@
     padding: 0;
 }
 html{
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
 }
 
@@ -18,7 +18,19 @@ section{
     width: 600px;
 }
 
-form{background-color: rgb(56 151 241 / 31%);background-blend-mode: overlay;padding: 45px 25px 40px 25px;position: relative;left:50%;top: 32%;transform:translate(-50%,-25%);width: 250px;text-align: center;color: #fff;}
+form{
+    background-color: rgb(56 151 241 / 31%);
+    background-blend-mode: overlay;
+    padding: 45px 25px 40px 25px;
+    position: relative;
+    left:50%;
+    top: 32%;
+    transform:translate(-50%,-25%);
+    width: 250px;
+    text-align: center;
+    color: #fff;
+}
+
 form h1{
     padding:10px 0
 }
