@@ -14,9 +14,8 @@ body{
 .cabecera{
     display: flex;
     justify-content: space-between;
-    padding: 10px 5px;
     color: white;
-    padding:15px 7px;
+    padding: 15px 7px 13px 5px;
     font-size:1.3rem;
 }
 .cabecera button{
