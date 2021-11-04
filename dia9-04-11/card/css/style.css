@@ -7,6 +7,10 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+section {
+    width: 800px;
+    margin: auto;
+}
 /* SIGN IN */
 .sign-in{
     float: left;
