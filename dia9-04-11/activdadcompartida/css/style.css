@@ -13,6 +13,7 @@ body {
 }
 section{
     width: 750px;
+    margin: 0 auto;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
