@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* SIGN IN */
+.sign-in{
+    float: left;
+    width:40%;
+    box-sizing: border-box;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+
+
+/* SIGN UP */
+.sign-up{
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    height:500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+.iconos{
+    margin:0 0 25px 0;
+}
+.iconos i{
+    border: 2px solid #97999b;
+    padding:4px;
+    border-radius:50%;
+    color: #77797a;
+    margin: 0 3px;;
+    font-size:0.8rem
+}
+.sign-up form{
+    width:60%;
+    margin: 15px auto 0 auto;
+}
+form input{
+    display: block;
+    width:100%;
+    margin: 4px 0;
+    padding:6px 0 6px 10px;
+    border-radius:4px;
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+    border: none;
+}
+
+input::placeholder{
+    font-size:0.7rem;
+    
+}
+
+/* Generico */
+h1{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+p{
+    color: #becacf;
+    text-align: center;
+    font-size: 0.7rem;
+    
+}
+form > button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+button{
+    margin: 40px 0 0 0;
+    background:#4b70e2;
+    color:#e1e4f6;
+    padding:8px 30px;
+    border-radius: 20px;
+    border: none;
+}
