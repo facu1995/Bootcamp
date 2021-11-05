@@ -8,5 +8,7 @@ function arrayInvertido(array){
     return aux;
 }
 
-log([1,2,3,4]);
-log(arrayInvertido([1,2,3,4]));
+let array =[1,2,3,4]
+let array2=arrayInvertido(array);
+log(array);
+log(array2);

@@ -9,5 +9,7 @@ function arrayInvertido(){
 }
 
 let array=[1,2,3,4]
+
 log(array);
+arrayInvertido(array);
 log(array);
