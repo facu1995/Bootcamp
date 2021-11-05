@@ -1,15 +1,13 @@
 const log=console.log;
 
-function arrayInvertido(){
-    var aux=[];
+function arrayInvertido(array){
+    aux=[];
     for(var i=array.length-1; i>=0; i--){
         aux.push(array[i]);
     }
-    array=aux;
+    return aux;
 }
 
-let array=[1,2,3,4]
-
-log(array);
-arrayInvertido(array);
+let array =[1,2,3,4];
+array=arrayInvertido(array);
 log(array);
