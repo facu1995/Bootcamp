@@ -150,6 +150,8 @@ https://excalidraw.com
 @alternock  dejo el instagram 
 
 
+Cajas css
+https://enyoucss.com/
 
 javascreep 
 
@@ -170,4 +172,9 @@ block cheing
 - yo: ...
 
 
+
+JAVASCRIP
+
+instanceof sirve para ver de donde extiende es directo salvo OBject (si extiende el nieto del abuelo no lo toma) es por el construtctor
+typeof es para saber el tipo es a las primitivas
 
