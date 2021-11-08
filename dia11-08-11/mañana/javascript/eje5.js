@@ -4,8 +4,9 @@
 const hora =()=>{
     let hora=new Date();
     var diasSemana = ["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"];
-    console.log("Hoy es :"+diasSemana[hora.getDay()]);
-    console.log("Hora actual: "+hora.getHours()+":"+hora.getUTCHours());
+    console.log("Hoy es: "+diasSemana[hora.getDay()]);
+    console.log(hora.getDay());
+    console.log("Hora actual: "+hora.getHours()+":"+hora.getMinutes());
 }
 
 hora();
