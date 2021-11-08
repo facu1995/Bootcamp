@@ -1,7 +1,3 @@
-const log=console.log;
+const horasSegundos =hora =>hora*3600;
 
-function horasSegundos(hora){
-    return hora*3600;
-}
-
-log(horasSegundos(1));
+console.log(horasSegundos(1));

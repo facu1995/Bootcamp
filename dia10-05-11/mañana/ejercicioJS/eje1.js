@@ -1,7 +1,2 @@
-const log=console.log;
-
-function edadDias(edad){
-    return 365*edad;
-}
-
-log(edadDias(1));
+const edadEnDias = edad => 365*edad;
+console.log(edadEnDias(2));

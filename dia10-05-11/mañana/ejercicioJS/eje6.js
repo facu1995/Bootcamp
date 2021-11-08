@@ -1,22 +1,12 @@
 const log=console.log;
 
 function concaternarArray1(array1,array2){
-    let aux=[];
-    for(i=0;i<array1.length;i++){
-        aux.push(array1[i]);
-    }
-    for(let i=0;i<array2.length;i++){
-        aux[i+array1.length]=array2[i];
-    }
-    return aux;
+    for(let i in  array2)
+        array1.push(array2[i]);
+    return array1;
 }
 /* OOOOOOOOOOOOO */
-function concaternarArray2(array1,array2){
-    let aux=[];
-    aux=array1.concat(array2);
-    return aux;
-}
+const concaternarArray2=(array1,array2)=>array1.concat(array2);
 
 let array1=[1,2,3,4],array2=[5,6,7];
-
-log(concaternarArray2(array1,array2));
+console.log(concaternarArray2(array1,array2));

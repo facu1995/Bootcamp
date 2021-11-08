@@ -2,9 +2,9 @@ const log=console.log;
 
 function arrayInvertido(array){
     aux=[];
-    for(var i=array.length-1; i>=0; i--){
+    let i=array.length-1
+    for(; i>=0; i--)
         aux.push(array[i]);
-    }
     return aux;
 }
 
