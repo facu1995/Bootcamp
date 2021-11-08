@@ -6,9 +6,10 @@ const eje3= cadena=>{
     if (arrayCadena.length==2)
         msj+=arrayCadena[1];
     else
-        msj+="No es una cadena valida";
+        msj="No es una cadena valida";
     return msj;
 }
 
 console.log(eje3("script.js"));
 console.log(eje3("index.html"));
+console.log(eje3("index"));
