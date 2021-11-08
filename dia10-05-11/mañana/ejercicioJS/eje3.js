@@ -1,2 +1,2 @@
-const arrayString = array =>array.join(" ");
-console.log(arrayString(["hola","pepe",4]));
+const stringArray = array =>array.join(" ");
+console.log(stringArray(["hola","pepe",4]));

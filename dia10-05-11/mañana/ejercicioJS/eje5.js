@@ -1,6 +1,4 @@
-const log=console.log;
-
-function arrayInvertido(array){
+const arrayInvertido=array=>{
     aux=[];
     let i=array.length-1
     for(; i>=0; i--)
