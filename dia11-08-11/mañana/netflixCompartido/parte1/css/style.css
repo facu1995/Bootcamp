@@ -8,6 +8,8 @@
 :root{
     --fuente-netflix: 'Bebas Neue', cursive;
     --rojo: #e50914;
+    --iconos:#999999;
+    --rojo:#e50914;
 }
 
 html{
@@ -15,7 +17,7 @@ html{
     font-size: 16px;
     color:#fff;
 }
-section{
+.section-arriba{
     background-image:url(../image/fondo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -27,17 +29,17 @@ section{
     box-shadow: 0 0 103px 112px rgb(0 0 0 / 100%) inset;
 }
 
-h3{
+.section-arriba> h3{
     font-family: var(--fuente-netflix);
     color: #e50914;
     font-size: 3.5rem;
     margin: 8px 0 0 0;
 }
-h1{
+.section-arriba>h1{
     font-size: 5rem;
     margin: 53px 0 0 0;
 }
-h2{
+.section-arriba>h2{
     font-size: 2.1rem;
     font-weight: 100;
     margin: 20px 0 0 0;
@@ -60,4 +62,106 @@ button{
     padding: 18px 23px;
     font-size: 2.1rem;
     margin: 27px 0 0 0;
+}
+
+
+
+/* ABAJO */
+.section-abajo{
+    background:black;
+    height:100vh;
+}
+
+hr{
+    border: 1.5px solid #3d3d3d;
+    background: #3d3d3d;
+}
+.active{
+    cursor:pointer;
+    border-bottom: 4px solid red;
+}
+
+.superior{
+    background:#141414;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* height: 200px; */
+}
+.icono{
+    color:var(--iconos);
+    display: flex;
+    flex-direction: column;
+    height: 163px;
+    margin: 40px 0 0 0;
+    align-items: center;
+    box-sizing: border-box;
+}
+.icono i{
+    font-size:4.5rem;
+    margin: 0px 0 17px 0;
+}
+.icono p{
+    font-size:1.4rem;
+}
+
+.cuerpo{
+    display: flex;
+    background:black;
+    color: #fff;
+    margin: 35px auto;
+    width: 835px;
+}
+.cuerpo-text{
+    /* width: 50%; */
+    font-size: 1.7rem;
+    margin: 50px 0 0px 0;
+}
+
+.cuerpo-text button{
+    background:var(--rojo);
+    color: #fff;
+    border:none;
+    padding:15px 20px;
+    font-size:1.1rem;
+    margin:15px 0 0 0;
+}
+
+.cuerpo-text button{
+    background:var(--rojo);
+    color: #fff;
+    border:none;
+    padding:15px 20px;
+    font-size:1.1rem;
+    margin:15px 0 0 0;
+}
+.cuerpo-img{
+    background-image:url(../image/imagen.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+    width: 436px;
+    margin: 53px 0 0 0;
+}
+
+footer{
+    margin: 69px 80px 0 80px;
+}
+
+footer p{
+    color:var(--iconos);
+    margin: 0 0 28px 0;
+}
+footer .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:black;
+    color:var(--iconos);
+    /* height:300px; */
+}
+
+.container>ul  li{
+    padding:0 0 5px 0;
 }
