@@ -8,8 +8,6 @@
 const deGradosaFaren=grados =>(grados* 9 / 5 + 32);
 const deFarenaGrados=faren =>((faren- 32) * 5 / 9);
 
-
-
 console.log(deGradosaFaren(5));
 console.log(deFarenaGrados(41));
 
