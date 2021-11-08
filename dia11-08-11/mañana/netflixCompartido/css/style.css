@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Bebas+Neue&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fuente-netflix: 'Bebas Neue', cursive;
+    --rojo: #e50914;
+}
+
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 16px;
+    color:#fff;
+}
+section{
+    background-image:url(../image/fondo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height: 533px;
+    box-shadow: 0 0 103px 112px rgb(0 0 0 / 100%) inset;
+}
+
+h3{
+    font-family: var(--fuente-netflix);
+    color: #e50914;
+    font-size: 3.5rem;
+    margin: 8px 0 0 0;
+}
+h1{
+    font-size: 5rem;
+    margin: 53px 0 0 0;
+}
+h2{
+    font-size: 2.1rem;
+    font-weight: 100;
+    margin: 20px 0 0 0;
+}
+button{
+    background-color: var(--rojo);
+    color:#fff;
+    border:none;
+}
+
+.btnSign-In{
+    padding: 5px 18px;
+    position:absolute;
+    right: 50px;
+    top: 23px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.btnFree{
+    padding: 18px 23px;
+    font-size: 2.1rem;
+    margin: 27px 0 0 0;
+}
