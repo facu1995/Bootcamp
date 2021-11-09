@@ -3,16 +3,9 @@
 // Dando un string determinado tiene que devolver la relación que tiene
 // Ricardo = "Ricardo es tu tio", Roberto = "Roberto es tu hermano", Argentina = "El país al que perteneces"
 // Dinamita = "Es tu gato"
-/* const eje1= relacion =>{
-    const map=new Map();
-    map.set("Ricardo","Ricardo es tu tio");
-    map.set("Roberto","Roberto es tu hermano");
-    map.set("Argentina","El país al que perteneces");
-    return map.get(relacion);
-}
 /*  */
-const eje1= relacion =>{
-    resp="";
+const buscarRelacion= relacion =>{
+    let resp="";
     switch (relacion) {
         case "Roberto":resp="Roberto es tu hermano";
             break;
@@ -25,5 +18,5 @@ const eje1= relacion =>{
     return resp;
 }
 
-console.log(eje1("Roberto"));
-console.log(eje1("Ricardo"));
+console.log(buscarRelacion("Roberto"));
+console.log(buscarRelacion("Ricardo"));

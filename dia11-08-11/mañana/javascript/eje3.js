@@ -1,6 +1,6 @@
 // Ejercicio Nº3
 // Pasado un string "index.html", "script.js" debe devolver la extension del archivo ej: ".js"
-const eje3= cadena=>{
+const formato= cadena=>{
     let msj=".";
     let arrayCadena =cadena.split(".");
     if (arrayCadena.length==2)
@@ -10,6 +10,6 @@ const eje3= cadena=>{
     return msj;
 }
 
-console.log(eje3("script.js"));
-console.log(eje3("index.html"));
-console.log(eje3("index"));
+console.log(formato("script.js"));
+console.log(formato("index.html"));
+console.log(formato("index"));
