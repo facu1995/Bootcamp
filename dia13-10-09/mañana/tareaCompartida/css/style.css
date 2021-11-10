@@ -24,7 +24,7 @@ body{
 .container-navbar{
     
     display: flex;
-    width: 80%;
+    width: 70%;
 
     /* Para agregarle margen al contenido */
     margin: 25px auto 0 auto;
@@ -100,7 +100,7 @@ body{
     font-size: 1.2rem;
 }
 a,button{
-    padding: 10px 8px;
+    padding: 10px 4px;
 }
 
 a:focus, button:focus{
@@ -141,21 +141,22 @@ a:focus, button:focus{
 /* Cuerpo principal*/
 .cuerpo{
     margin: 167px auto 0 auto;
-    width: 80%;
+    width: 70%;
 }
 .cuerpo-izq{
     box-sizing: border-box;
     width:50%;
     float:left;
-    padding: 0px 78px 0 0;
+    padding: 0px 88px 0 0;
 }
 .pre-text{
     color:var(--verde-claro);
     margin: 5px 0;
     font-size: 1.1rem;
+    font-weight: 600;
 }
 .cuerpo-izq h1{
-    font-size: 4.9rem;
+    font-size: 4.3rem;
     margin: 20px 0;
     font-family: ShopifySans, Helvetica, Arial, sans-serif;
 }
