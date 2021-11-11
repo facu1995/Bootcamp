@@ -24,7 +24,7 @@ const eje2= nro=>{
   if(nro>0&&nro<6){
     let i=nro
     for(;i<11;i++){
-      console.log(i+"..100");
+      console.log(i+"..10");
     }
   }
   else{
@@ -44,3 +44,14 @@ let arr = [10, "20", 30, "40", 50];
 array2 =arr.map(x=>Number(x)
 )
 console.log(array2);
+
+
+/* 4-
+ arr = [2, 4, 7, 1, 2, "foo", 7, "bar", "qux", 3, "foo"]
+ eliminar los elementos repetidos, nota: (el segundo elemento repetido)
+ output => [2, 4, 7, 1, "foo", "bar", "qux", 3] */
+
+ arr = [2, 4, 7, 1, 2, "foo", 7, "bar", "qux", 3, "foo"]
+ const filter = arr => [...new Set(arr)];
+ arr=filter(arr)
+ console.log(arr);
