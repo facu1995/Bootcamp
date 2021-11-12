@@ -2,7 +2,9 @@
  arr = [1,3,4,2,6,7,9,1, 8]
 Crear una función que indique el total de elementos impares de un array
  output => 5
+ 
 =========================================================== */
+console.log("Ejercicio 1:")
 let arr = [1,3,4,2,6,7,9,1, 8];
 const eje1= arr=>{
     let cont=0;
@@ -15,7 +17,7 @@ const eje1= arr=>{
       
 eje1(arr);
 
-
+console.log("Ejercicio 2:")
 
 /* 2-
   str = "hola mundo desde javascript"
@@ -30,6 +32,7 @@ const eje2= str=>{
     console.log(arrayNuevo);
 }
 eje2(str);
+console.log("Ejercicio 3:")
 /*
 3- 
 /* Crear una variable que contenga el siguiente array :
@@ -42,11 +45,12 @@ console.log(filter);
 
 4- Crear una variable que filtre los animales que no sean 'cat' usar filter
 const pets = ['cat', 'dog', 'elephant','hawk','snake','cat'] */
+console.log("Ejercicio 4:")
 const pets = ['cat', 'dog', 'elephant','hawk','snake','cat'];
 let petsNuevo=pets.filter(x=>x!="cat");
 console.log(petsNuevo)
 
-
+console.log("Ejercicio 5:")
 /* 5- Crear una variable que muestre solo los nombres de los productos del siguiente array
 hacerlo con .map
 */
@@ -59,6 +63,7 @@ const productos = [
 let eje5=productos.map(x=> x.nombre);
 console.log(eje5);
 
+console.log("Ejercicio 6:")
 /* 6-  Usando el reduce retornar un solo array. pista: .concat*/
 const data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]; 
 let arrUnico=data.reduce((cache,presente)=>{
