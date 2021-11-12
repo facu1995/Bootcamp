@@ -55,3 +55,11 @@ console.log(array2);
  const filter = arr => [...new Set(arr)];
  arr=filter(arr)
  console.log(arr);
+
+
+
+ let i = 100;
+
+for (; i < 50; i-=2) {
+    console.log(i)
+}
