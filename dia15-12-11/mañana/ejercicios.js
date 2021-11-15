@@ -16,7 +16,7 @@ const eje1= arr=>{
 };
       
 eje1(arr);
-
+const odd = arr => arr.filter(el=> el % 2 != 0).length
 console.log("Ejercicio 2:")
 
 /* 2-
