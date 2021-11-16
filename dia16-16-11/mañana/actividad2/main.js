@@ -71,9 +71,28 @@ btn2.textContent="Boton2";
 contenedor.appendChild(btn2);
 
 btn1.addEventListener("click",()=>console.log("boton1 se ejectuo"));
-btn2.addEventListener("click",()=>console.log("boton1 se ejectuo"));
+btn2.addEventListener("click",()=>console.log("boton2 se ejectuo"));
 
 const form=document.createElement("form");
 container.appendChild(form);
-let label=document.createElement("label");
-label.textContent=""
+const labelNombre=document.createElement("label");
+form.appendChild(labelNombre);
+labelNombre.textContent="Nombre:";
+const inputNombre=document.createElement("input");
+form.appendChild(inputNombre);
+const labelApellido=document.createElement("label");
+form.appendChild(labelApellido);
+labelApellido.textContent="Apellido:";
+const inputApellido=document.createElement("input");
+form.appendChild(inputApellido);
+form.style.width = "250px"
+//form.style.display = "flex";
+//form.style.flex.direction = "column";
+const labelMail=document.createElement("label");
+form.appendChild(labelMail);
+labelMail.textContent="Mail:";
+const inputMail=document.createElement("input");
+form.appendChild(inputMail);
+const btnEnviar=document.createElement("button");
+btnEnviar.textContent="Enviar";
+form.appendChild(btnEnviar);
