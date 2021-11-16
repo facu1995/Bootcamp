@@ -21,7 +21,8 @@ const span = document.querySelector(".span");
 const container = document.querySelector(".container")
 
 function cambiarVisibilidad() {
-    const result = span.classList.toggle("activo");
+
+    const result = span.classList.toggle("c");
     if (result) {
         span.textContent = "Elemento"
     }
@@ -68,8 +69,8 @@ let btn2 = document.createElement("button");
 btn2.textContent = "Boton2";
 contenedor.appendChild(btn2);
 
-btn1.addEventListener("click", () => console.log("boton1 se ejectuo"));
-btn2.addEventListener("click", () => console.log("boton2 se ejectuo"));
+btn1.addEventListener("click", (e) =>{e.stopPropagation(); console.log("boton1 se ejecuto")});
+btn2.addEventListener("click", (e) =>{e.stopPropagation(); console.log("boton2 se ejecuto")});
 
 const form = document.createElement("form");
 container.appendChild(form);
