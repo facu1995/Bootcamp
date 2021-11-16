@@ -20,7 +20,6 @@ const btn= document.querySelector(".btnVisibilidad");
 const span= document.querySelector(".span");
 const container= document.querySelector(".container")
 
-console.log(btn,span,container);
 function cambiarVisibilidad(){
     //p.toggle("slow");
    const result= span.classList.toggle("c");
