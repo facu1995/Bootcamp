@@ -61,6 +61,7 @@ let contenedor=document.createElement("div");
 container.appendChild(contenedor);
 contenedor.style.width="400px";
 contenedor.style.height="400px";
+contenedor.style.border="1px solid black";// agrege para que sea visible
 contenedor.addEventListener("click",()=>contenedor.style.background="red");
 let btn1=document.createElement("button");
 btn1.textContent="Boton1";
@@ -71,3 +72,8 @@ contenedor.appendChild(btn2);
 
 btn1.addEventListener("click",()=>console.log("boton1 se ejectuo"));
 btn2.addEventListener("click",()=>console.log("boton1 se ejectuo"));
+
+const form=document.createElement("form");
+container.appendChild(form);
+let label=document.createElement("label");
+label.textContent=""
