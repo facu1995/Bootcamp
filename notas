@@ -242,3 +242,47 @@ metodologias
 **************************************
 npm i --yes
 npm i express cors uuid nodemon esm method-override
+
+
+
+bcrypt
+form-data
+jsonwebtoken
+
+const axios = require('axios');
+
+/* axios
+  .get('https://pruebadev1.herokuapp.com/users')
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+axios
+  .post('https://pruebadev1.herokuapp.com/user/create/', {
+    nombre: 'Roberto',
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+ */
+/* axios
+  .put('https://pruebadev1.herokuapp.com/user/modify/Roberto/Ezequiel', {})
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.log(error);
+  }); */
+axios
+  .delete('https://pruebadev1.herokuapp.com/user/delete/Ezequiel', {})
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });

@@ -84,9 +84,9 @@ form.appendChild(labelApellido);
 labelApellido.textContent = "Apellido:";
 const inputApellido = document.createElement("input");
 form.appendChild(inputApellido);
-form.style.width = "250px"
-//form.style.display = "flex";
-//form.style.flex.direction = "column";
+//form.style.width = "250px"
+form.style.display = "flex";
+form.style.flexDirection = "column";
 const labelMail = document.createElement("label");
 form.appendChild(labelMail);
 labelMail.textContent = "Mail:";
@@ -95,3 +95,5 @@ form.appendChild(inputMail);
 const btnEnviar = document.createElement("button");
 btnEnviar.textContent = "Enviar";
 form.appendChild(btnEnviar);
+
+
