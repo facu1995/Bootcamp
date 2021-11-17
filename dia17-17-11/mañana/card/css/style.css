@@ -56,13 +56,17 @@ html{
 
 .card-btn{
     color: #fff;
+    
 }
+
 .card-btn button{
     background:none;
     border: none;
     color: #fff;
     position: absolute;
     left: -18px;
+    
+    
 }
 .card-btn i{
     font-size: 3.4rem;
