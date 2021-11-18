@@ -174,7 +174,7 @@ nav .login:hover{
     font-size:2rem;
 }
 .section-two .superior p{
-    margin:20px 0 0 0;
+    margin: 20px 0 59px 0;
 }
 .section-two .inferior{
     display:flex;
@@ -201,30 +201,31 @@ nav .login:hover{
 }
 .section-two .inferior .contenido{
     display: none;
-    margin: 30px 0 0 0;
+    margin: 72px 0 0 0;
     width: 100%;
 }
 .section-two .inferior .contenido .izquierda{
     box-sizing: border-box;
-    float: left;width: 50%;
-    height: 305px;
+    float: left;
+    width: 50%;
+    height: 339px;
     position: relative;
 }
 .section-two .inferior .contenido .caja-azul{
     background: var(--Soft-Blue);
-    width: 636px;
+    width: 804px;
     height: 263px;
     border-radius: 0 68px 90px 0;
     position: relative;
     z-index: 2;
     top: 70px;
-    right: 251px;
+    right: 308px;
     /* left: -182px; */
 }
 .section-two .inferior .contenido .img{
     background-repeat: no-repeat;
-    width: 427px;
-    height: 299px;
+    width: 409px;
+    height: 323px;
     background-size: contain;
     position: absolute;
     /* left: 57px; */
@@ -272,6 +273,7 @@ nav .login:hover{
     width: 80rem;
     display: flex;
     justify-content: space-evenly;
+    margin: auto;
     text-align: center;
   }
   .top {
@@ -340,3 +342,34 @@ nav .login:hover{
     border: 2px solid var(--Soft-Blue);
     color: black;
   }
+
+
+  footer{
+    background-color: var(--Soft-Blue);
+    padding: 40px 0 0 0;
+    color: #fff;
+}
+footer .superior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .superior p{
+    font-size: 0.7rem;
+    color: #fff;
+    font-weight: 600;
+}
+footer .superior h3{
+    padding: 30px 0 0 0;
+    font-size: 2rem;
+}
+footer .superior .h3continuado{
+    
+}
+footer .superior h3{}
+footer .superior .form{}
+footer .superior .form input{}
+footer .superior .form button{}
+footer .inferior{}
+footer .inferior ul{}
+footer .inferior ul li{}

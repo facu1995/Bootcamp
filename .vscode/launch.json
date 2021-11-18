@@ -20,13 +20,5 @@
             "program": "${workspaceFolder}/path/to/script.sh",
             "args": []
         },
-
-        {
-            "type": "pwa-chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost/bootcamp/",
-            "webRoot": "${workspaceFolder}"
-        }
     ]
 }

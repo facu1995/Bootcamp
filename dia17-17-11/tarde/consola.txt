@@ -1,0 +1,9 @@
+npm init --yes
+npm i express cors multer uuid dayjs
+npm i uuid nodemon esm method-override
+npm install bcrypt jsonwebtoken  dayjs
+
+package.json 
+ "scripts": {
+    "dev":"nodemon -r esm server.js"
+  },
