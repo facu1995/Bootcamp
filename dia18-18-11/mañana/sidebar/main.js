@@ -8,7 +8,6 @@ const cantImag = 3;
 let i = 0;
 
 function actualizarFoto(){
-    
     let resto = Math.abs(i % 3);
     arrImg.forEach((el, i) => {
         if (i == resto) {
@@ -24,7 +23,6 @@ siguiente.addEventListener('click', () => {
     i++;
     actualizarFoto();
 }); 
-
 
 atras.addEventListener('click', () => {
     i--;
