@@ -1,16 +1,13 @@
 img{
     display: none;
-    z-index: 1;
-    transition: all 3s ease-in-out;
 }
 
 .activo{
     display: block;
-    transition: all 3s ease-in-out;
 }
+
 .container{
     position: relative;
-    width: 500px;
     margin: 20px;
 }
 button{
@@ -18,17 +15,13 @@ button{
     font-size: 31px;
     padding: 0 7px;
 }
-button i{
-    
-}
+
 .siguiente{
-    z-index: 2;
     position: absolute;
     top: 196px;
     left: 383px;
 }
 .atras{
-    z-index: 2;
     position: absolute;
     top: 196px;
     left: 39px;
