@@ -107,8 +107,9 @@ nav ul a{
 .section1 .izquierda h1{
     text-transform: uppercase;
 }
-.section1 .izquierda. span{
+.section1 .izquierda .sub-title-n{
     color: #a7a5a5;
+    padding: 0 15px 0 0;
 }
     
 .section1 .derecha{
@@ -141,11 +142,12 @@ nav ul a{
 
 .section1 .derecha .name{
     margin: 30px 0 0 0;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 500;
+    letter-spacing: 8px;
     text-transform: uppercase;
 }
-.section1 .derecha .description{color: #a7a5a5;font-size: 20px;line-height: 1.1;font-weight: 300;}
+.section1 .derecha .description{color: #a7a5a5;font-size: 20px;font-weight: 300;margin: 6px 0 0 0;}
 .section1 .derecha hr{
     margin:40px 0 0 0;
 }
@@ -160,19 +162,19 @@ nav ul a{
 }
 .section1 .derecha .inferior h3{
     text-transform: uppercase;
-    color: white;
     font-weight: 500;
+    letter-spacing: 2px;
 }
 .section1 .images{
     background-image: url(../assets/destination/image-moon.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 391px;
+    width: 443px;
     position: relative;
-    height: 379px;
-    margin: 30px;
-    right: -107px;
+    height: 398px;
+    margin: 76px 0 0 0;
+    right: -35px;
 }
 
 
