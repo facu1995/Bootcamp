@@ -13,18 +13,24 @@ img{
     width: 500px;
     margin: 20px;
 }
-.button i{
-    font-size:16px;
+button{
+    border-radius: 20px;
+    font-size: 31px;
+    padding: 0 7px;
+}
+button i{
+    
 }
 .siguiente{
     z-index: 2;
     position: absolute;
     top: 196px;
-    left: 374px;
+    left: 383px;
 }
 .atras{
     z-index: 2;
     position: absolute;
     top: 196px;
-    left: 5px;
+    left: 39px;
 }
+
