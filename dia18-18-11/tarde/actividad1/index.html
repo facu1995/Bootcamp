@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+</head>
+
+<body>
+    <h1>Crear Usuario</h1>
+    <form method="post" action="http://localhost:3001/user/">
+        <div>
+            <input type="text" placeholder="Ingresa tu correo" name="email" />
+        </div>
+        <div>
+            <input type="text" placeholder="Ingresa tu nombre" name="nombre" />
+        </div>
+        <div>
+            <input type="password" placeholder="Ingresa tu clave" name="pass" />
+        </div>
+        <div>
+            <button type="submit">Crear</button>
+        </div>
+    </form>
+    <br>
+    <h1>Cambiar Usuario</h1>
+    <form method="put" action="http://localhost:3001/user/cambiar">
+        <div>
+            <input type="text" placeholder="Ingresa su correo anterior" name="email" />
+        </div>
+        <div>
+            <input type="text" placeholder="Ingresa tu nuevo correo" name="nuevoEmail" />
+        </div>
+        <div>
+            <button type="submit">Cambiar</button>
+        </div>
+    </form>
+</body>
+
+</html>

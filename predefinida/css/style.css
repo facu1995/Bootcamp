@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+:root{
+    --amarillo:#f9eb58;
+}
+div{
+    border-top: 1px solid;
+}
+nav{
+    background: var(--amarillo);
+    width: 800px;
+}
+
+nav .superior{
+    display: flex;
+}
+    
+nav .superior .logo{
+    height:30px;
+    width: 50px;
+    background-image: url(./);
+}
+nav .superior .buscar{}
+nav .superior .disney{}
+nav .superior{}
