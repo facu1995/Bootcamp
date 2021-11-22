@@ -9,7 +9,7 @@
 
 <body>
     <h1>Crear Usuario</h1>
-    <form method="post" action="http://localhost:3001/user/">
+    <form method="post" action="https://server18-11.herokuapp.com/user/">
         <div>
             <input type="text" placeholder="Ingresa tu correo" name="email" />
         </div>
@@ -24,18 +24,5 @@
         </div>
     </form>
     <br>
-    <h1>Cambiar Usuario</h1>
-    <form method="put" action="http://localhost:3001/user/cambiar">
-        <div>
-            <input type="text" placeholder="Ingresa su correo anterior" name="email" />
-        </div>
-        <div>
-            <input type="text" placeholder="Ingresa tu nuevo correo" name="nuevoEmail" />
-        </div>
-        <div>
-            <button type="submit">Cambiar</button>
-        </div>
-    </form>
-</body>
 
 </html>
