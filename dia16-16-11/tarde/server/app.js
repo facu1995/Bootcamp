@@ -1,6 +1,6 @@
 /* import methodOverride from "method-override";
 import cors from "cors";
-import express from "express"; */
+import express from "express";  */
 const methodOverride = require("method-override");
 const cors = require("cors");
 const express = require("express");
@@ -41,3 +41,31 @@ app.listen(port, () => {
    log("start server");
 });
 
+/* const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
+const connectURL =
+   'mongodb+srv://tomi:ESCALERA10@cluster0.2gfct.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+
+const opts = {
+   useNewUrlParser: true,
+   useUnifiedTopology: true,
+}
+mongoose.connect(connectURL, opts)
+   .then(resp => console.log("entro"))
+   .catch(err => console.log("rompio"))
+/* const { Schema, Model } = mongoose;
+
+mongoose
+   .connect(connectURL, {
+      useNewURLParser: true,
+      useUnifiedTopology: true,
+      useFindAndModify: false,
+      useCreateIndex: true,
+   })
+   .then((res) => console.log('res'))
+   .catch((err) => console.log(err));
+ */
+
+
+/* mongoose.connection.on('connected', () => console.log('MongoDB conectado'))
+mongoose.connection.on('error', () => console.log('Error al conectar con MongoDB')) */

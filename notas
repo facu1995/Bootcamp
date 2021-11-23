@@ -289,3 +289,13 @@ axios
 
 
 https://www.google.com/script/start/
+
+
+
+
+GRID
+https://grid.layoutit.com/
+
+
+grid-column: 1/-1;
+grid-template-columns: repeat(2,1fr);
