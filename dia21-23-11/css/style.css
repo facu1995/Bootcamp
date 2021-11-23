@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,6 @@ html {
 }
 
 :root {
-    --amarillo: #f9eb58;
 }
 
 div {
@@ -21,7 +20,6 @@ div {
     font-size: 1.8rem;
     border: none;
     display: none;
-
 }
 
 nav {
@@ -43,7 +41,6 @@ nav ul li a {
     padding: 20px 20px;
     text-decoration: none
 }
-
 
 @media screen and (max-width:452px) {
     .btn-hamburger {
@@ -77,6 +74,5 @@ nav ul li a {
     nav li a {
         display: block;
         padding: 10px 0px;
-
     }
 }

@@ -7,19 +7,23 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen'
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav>
-        <div class="izquierda">
-            <div class="icono"></div>
-            <hr>
-        </div>
-        <ul>
-            <li><a href='#section0' class="nav-link"><span class="nav-span">00</span> Home</a></li>
-            <li><a href='#section1' class="nav-link"><span class="nav-span">01</span>Destination</a></li>
-            <li><a href='#section2' class="nav-link"><span class="nav-span">02</span>Crew</a></li>
-            <li><a href='#section3' class="nav-link"><span class="nav-span">03</span>Technology</a></li>
+        <ul class="ul-logo-hamburger">
+            <li><img class="logo" src="./space-tourism-website-main2/space-tourism-website-main/starter-code/assets/shared/logo.svg"></li>
+            <li><button class="btn-hamburger"><i class="fas fa-bars hamburger"></i>
+                <i class="fas fa-times cruz " style="display: none;"></i></button></li>
+          </ul>
+          <ul class="menu">
+            <li><a href='#section0' class="nav-link item"><span class="nav-span">00</span> Home</a></li>
+            <li><a href='#section1' class="nav-link item"><span class="nav-span">01</span>Destination</a></li>
+            <li><a href='#section2' class="nav-link item"><span class="nav-span">02</span>Crew</a></li>
+            <li><a href='#section3' class="nav-link item"><span class="nav-span">03</span>Technology</a></li>
         </ul>
 
     </nav>
@@ -59,14 +63,17 @@
             </p>
             <hr>
             <div class="inferior">
+                <hr class="hrSection1">
                 <div class="distancia">
                     <p>Avg. distance</p>
                     <h3 class="distance">225 mil. km</h3>
                 </div>
+                <hr class="hrSection1">
                 <div class="tiempo">
                     <p>Est. travel time</p>
                     <h3 class="travel">9 months</h3>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -111,7 +118,6 @@
             <div class="img3-container">
             </div>
         </div>
-
     </section>
     <script src='section2.js'></script>
 </body>

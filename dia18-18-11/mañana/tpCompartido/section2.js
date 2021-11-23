@@ -103,7 +103,7 @@ let first = document.querySelector('.one');
 let second = document.querySelector('.two');
 let third = document.querySelector('.three');
 let content = document.querySelector('.info3');
-let image = document.querySelector('.img3-container')
+let image = document.querySelector('.img3-container');
 first.addEventListener('click', change1);
 second.addEventListener('click', change2);
 third.addEventListener('click', change3);
@@ -134,3 +134,33 @@ function change3() {
     and plenty of other activities to keep you entertained.</p>`;
     image.style.backgroundImage ="url(./assets/technology/image-space-capsule-landscape.jpg)";
 }
+
+
+
+/* NAV */
+const list = document.querySelectorAll(".item");
+const btnHamburger = document.querySelector(".btn-hamburger");
+const cruz = document.querySelector(".cruz");
+const hamburger = document.querySelector(".hamburger");
+/* const btnHamburger = document.querySelector(".btn-hamburger");
+const cruz = document.querySelector(".cruz");
+const hamburger = document.querySelector(".hamburger"); */
+let activo = 0;
+btnHamburger.addEventListener('click', () => {
+    if (activo == 0) {
+        list.forEach((x, i) => {
+            x.classList.add("active");
+        })
+        hamburger.style.display="none";
+        cruz.style.display = "block";
+        activo = 1;
+    }
+    else {
+        list.forEach((x, i) => {
+            x.classList.remove("active");
+        })
+        hamburger.style.display="block";
+        cruz.style.display = "none";
+        activo = 0;
+    }
+})
