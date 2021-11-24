@@ -46,7 +46,8 @@ body {
     display: flex;
 }
 
-.superior h4 {}
+.superior h4 {margin: 0 0 0 18px;}
+
 
 .superior p {
     margin: 0 0 0 32px;
@@ -57,8 +58,9 @@ body {
     background: #ad1fea;
     border: none;
     color: #fff;
+    font-weight: 500;
     border-radius: 5px;
-    padding: 6px 18px;
+    padding: 9px 18px;
 }
 
 .cards {
@@ -77,10 +79,12 @@ body {
     background: #f2f4ff;
     display:flex;
     flex-direction:column;
-    padding:5px 10px;
-    height: 50px;
+    padding: 6px 10px;
+    height: 46px;
     border-radius:6px;
+    font-size: 0.8rem;
     align-items: center;
+    font-weight: 600;
 }
 
 .card-info {
@@ -98,11 +102,16 @@ body {
 
 
 .card-categoria {
-    background: #f3f5ff;
-    padding: 2px 4px;
+   background: #f3f5ff;
+    padding: 3px 8px;
     border-radius: 9px;
+    font-size: 0.8rem;
     color: #4763ea;
     font-weight: 500;
+    min-width: 50px;
+    text-align: center;
+    margin: 5px 0px;
+    display: inline-block;
     
 }
 
@@ -122,7 +131,7 @@ body {
 
 .titulo {
     height: 120px;
-    padding: 50px 10px 10px 10px;
+    padding: 50px 10px 10px 28px;
     background-image: url(https://hopeful-murdock-83580e.netlify.app/img/background-header.254059f1.png);
     color: #fff;
     border-radius: 5px;
@@ -134,8 +143,8 @@ body {
 
 
 .categorias {
-    height: 140px;
-    padding: 20px;
+    height: 155px;
+    padding: 20px 35px 20px 20px;
     border-radius: 5px;
     margin: 20px 0 0;
     background: #fff;
@@ -144,14 +153,19 @@ body {
 
 .categorias span {
     background: #f3f5ff;
-    padding: 2px 4px;
+    padding: 3px 8px;
     border-radius: 9px;
+    font-size: 0.8rem;
     color: #4763ea;
     font-weight: 500;
+    min-width: 50px;
+    text-align: center;
+    margin: 5px 0px;
+    display: inline-block;
 }
 
 .roadmap {
-    padding: 10px 10px;
+    padding: 10px 10px 20px 10px;
     background: #fff;
     margin: 20px 0 0 0;
     border-radius: 5px;
@@ -160,17 +174,22 @@ body {
 .roadmap-top {
     display: flex;
     margin: 10px 0;
+    align-items: center;
     justify-content: space-around;
 }
 
 .roadmap-top h3 {}
 
-.roadmap-top a {}
+.roadmap-top a {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
 
 .roadmap .listas {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 0 10px 0;
+    padding: 0 5px 0 42px;
 }
 
 .roadmap .listas-izq {}

@@ -24,3 +24,21 @@ else{
 }
 
 
+let shows = document.querySelectorAll('.show');
+let contents = document.querySelectorAll('.questions-content');
+
+console.log(object)
+
+
+for(i in shows){
+
+    shows[i].addEventListener('click', () => {
+        if (contents[i].style.display === "none"){
+            contents[i].style.display = "block";
+        } else {
+            contents[i].style.display = "none";
+        }
+    })
+    
+}
+
