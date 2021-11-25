@@ -5,3 +5,11 @@ let users = [
 ];
 
 export default users;
+/* function setUsers(value) {
+    UsersMock = value;
+}
+
+export  {UsersMock, setUsers };
+
+ */
+
