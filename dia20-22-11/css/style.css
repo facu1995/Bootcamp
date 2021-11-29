@@ -101,6 +101,7 @@ ul {
 
 .cards {
     display: flex;
+
 }
 
 .card {
@@ -194,6 +195,9 @@ article p {
     .section2 {
         grid-column: 1/-1;
         grid-row: 2;
+    }
+    article{
+        width: 100%;
     }
     .section3 {
         grid-column: 1/-1;
