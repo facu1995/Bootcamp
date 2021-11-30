@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 //components
-import Home from "./components/home/";
-import About from "./components/about/about"
-
+import Home from "./components/home/home";
+import About from "./components/about/about";
+import Contact from "./components/contact/contact";
 
 function App() {
     return (
@@ -16,12 +16,16 @@ function App() {
                     <li>
                         <Link to="/about" >about</Link>
                     </li>
+                    <li>
+                        <Link to="/contact" >about</Link>
+                    </li>
                 </ol>
             </div>
             <section>
             <Routes>
                     <Route index path="/" element={<Home />}></Route>
                     <Route index path="/about" element={<About />}></Route>
+                    <Route index path="/contact" element={<Contact />}></Route>
                 </Routes>
             </section>
         </Fragment>
