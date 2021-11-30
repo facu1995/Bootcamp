@@ -1,0 +1,8 @@
+main{
+  background-image: url(components/home/img/background-home-desktop.jpg);
+  width: 100%;
+  height: 55vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

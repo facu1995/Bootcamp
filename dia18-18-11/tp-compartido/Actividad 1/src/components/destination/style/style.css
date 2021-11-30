@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/background-destination-desktop.jpg");
+}
+
+.section1 .izquierda h1 {
+    text-transform: uppercase;
+}
+
+.section1 .izquierda .sub-title-n {
+    color: #a7a5a5;
+    padding: 0 15px 0 0;
+}
+
+.section1 .derecha .sidebar ul {
+    display: flex;
+    list-style: none;
+}
+
+.section1 .derecha .sidebar ul li {
+    padding: 0 13px 0 0;
+}
+
+.section1 .derecha .sidebar ul li button {
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    padding: 7px 0px 7px 0;
+    color :#fff;
+}
+
+.section1 .derecha .sidebar ul li .active {
+    border-bottom: 2px solid #fff;
+    padding-bottom: -2px;
+}
+
+.section1 .images {
+    background-image: url(../assets/image-moon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 398px;
+}
+
+.section1 .images {
+    background-image: url(../assets/image-moon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.section1 .derecha .name {
+    font-size: 6rem;
+    font-weight: 500;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.section1 .derecha .inferior p {
+    font-size: 0.9rem;
+}
+
+.section1 .derecha .inferior h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width:600px) {
+    .section1 {
+        flex-direction: column;
+        padding:90px 0 0 0;
+    }
+
+    .section1 .izquierda {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+    
+    .section1 .izquierda h1{
+        padding:0px 0 20px 0;
+    }
+
+    .section1 .derecha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1 .derecha p {
+        text-align: center;
+    }
+
+    .section1 .derecha .sidebar {
+        padding: 10px 0;
+    }
+
+    .section1 .derecha .description {
+        padding: 0 10px 30px 10px;
+    }
+
+    .section1 .derecha .inferior {
+        width: 80%;
+        text-align: center;
+    }
+    .section1 .derecha .inferior h3 {
+        font-size:1.9rem;
+    }
+
+
+    .section1 .derecha .distancia, .tiempo {
+        padding: 30px 0;
+    }
+    .hrSection1{
+        border: 1px solid rgb(83, 83, 83);
+    }
+    
+}
+
+
+.item {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+
+/* Deskell */
+@media all and (min-width:601px) {
+
+    /* Distination section1 FACUUU***************** */
+    .section1 {
+        padding: 200px 0 0 0;
+    }
+
+    .section1 .izquierda {
+        width: 500px;
+        height: 500px;
+    }
+
+    .section1 .derecha {
+        width: 384px;
+        height: 500px;
+        margin: 83px 0 0 135px;
+    }
+
+
+    .section1 .derecha .name {
+        font-size: 6rem;
+        font-weight: 500;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+
+    .section1 .derecha .description {
+        color: #a7a5a5;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 6px 0 0 0;
+    }
+
+    .section1 .derecha hr {
+        margin: 40px 0 0 0;
+    }
+
+    .section1 .derecha .inferior {
+        margin: 10px 0 0 0;
+        display: flex;
+        color: #a7a5a5;
+        justify-content: space-between;
+    }
+
+    .section1 .images {
+        width: 443px;
+        position: relative;
+        height: 398px;
+        margin: 76px 0 0 0;
+        right: -35px;
+    }
+    .hrSection1{
+        display: none;
+    }
+}
