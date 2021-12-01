@@ -1,4 +1,4 @@
-const data1 = [
+const data = [
     {
         text: "Lorem ipsum dolor sit amet,consectetur adipiscing elit.",
         bg:"radial-gradient(#1fe4f5, #3fbafe)"
@@ -10,8 +10,7 @@ const data1 = [
     {
         text: "Ut aliquip ex ae commodo consequat. Duis aute irure dolor.",
         bg: "radial-gradient(#76b2fe, #b69efe)"
-    }]
-const data2 = [
+    },
     {
         text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         bg: "radial-gradient(#60efbc, #58d5c9)"
@@ -24,5 +23,5 @@ const data2 = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         bg: "radial-gradient(#1fe4f5, #3fbafe)"
     }
-]
-export { data1, data2 }
+];
+export default data;

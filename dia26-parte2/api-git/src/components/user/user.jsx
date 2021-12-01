@@ -29,9 +29,6 @@ function User() {
             <p>{login}</p>
             <p>{created_at}</p>
             <img src={avatar_url} alt="img"/>
-            
-
-
         </div>
     )
 }
