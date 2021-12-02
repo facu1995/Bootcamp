@@ -7,8 +7,6 @@ var initialState = {
     products: []
 };
 
-
-
 function logearPerfil(state, action) {
     let { nombre, correo, pass } = action.payload;
     return {
@@ -16,24 +14,7 @@ function logearPerfil(state, action) {
         usuario: { correo, nombre, pass }
     }
 }
-function modificarPerfinPorCorreo(state, action) {
-    return {
-        ...state,
-        usuario: [...state.usuario.map(el => {
-            if (el.correo === action.payload.correo) {
-                el.nombre = action.payload.nombre;
-                el.pass = action.payload.pass;
-            }
-            return el;
-        })]
-    }
-}
-function elimianrCorreo(state, action) {
-    return {
-        ...state,
-        usuario: [...state.usuario.filter(el => el.correo !== action.payload.correo)]
-    }
-}
+
 function agregarProducto(state, action) {
     let { nombre, precio, id } = action.payload;
     return {
@@ -87,7 +68,6 @@ function component() {
     document.getElementById("respuesta").innerHTML = JSON.stringify(store.getState());
 }
 
-
 //se registra el elemento/component/dom de escucha
 store.subscribe(component);
 
@@ -98,12 +78,6 @@ if (crearDom) {
         store.dispatch(accionlogearPerfil());
     });
 }
-/* document.getElementById("modificar_nombre").addEventListener("click", () => {
-    store.dispatch(accionModificarNombre());
-});
-document.getElementById("eliminar_pass").addEventListener("click", () => {
-    store.dispatch(accionEliminarpass());
-}); */
 
 let elCorreo = document.getElementById("correo");
 let elNombre = document.getElementById("nombre");
