@@ -267,15 +267,15 @@ store.subscribe(domSelectProducts);
 
 
 //Mostar y ocultar 
-const carritoDom= document.querySelector(".carrito");
+/* const carritoDom= document.querySelector(".carrito"); */
 const signInDom= document.querySelector(".sign-in");
 const loginDom= document.querySelector(".login");
 const listaitemDom= document.querySelector(".container-item");
 const selecionados= document.querySelector(".container-select");
 
-    carritoDom.addEventListener("click", () => {
+/*     carritoDom.addEventListener("click", () => {
         loginDom.classList.add("ocultar");
-    })
+    }) */
     signInDom.addEventListener("click", () => {
         selecionados.classList.remove("ocultar");
         listaitemDom.classList.remove("ocultar");
