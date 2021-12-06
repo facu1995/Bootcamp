@@ -1,4 +1,9 @@
 import React from "react";
+
+import {TATGS} from "../../redux/duck";
+import {useSelector} from "react-redux";
+
+
 //data
 import data from "./mocks/fake_mocks";
 //callbacks

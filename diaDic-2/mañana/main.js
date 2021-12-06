@@ -170,43 +170,55 @@ const productosData = [
     },
 ]
 
+
+
 function domUserName() {
     document.getElementById("respuesta2").innerHTML = JSON.stringify(store.getState().usuario.nombre);
 }
+store.subscribe(domUserName);
+
 const containerPrdocuts = document.querySelector(".container-produts");
 if (containerPrdocuts) {
-    store.subscribe(domUserName);
     productosData.forEach((element) => {
         let productoDom = document.createElement("div");
         productoDom.classList.add("product");
+
         let nombreDom = document.createElement("p");
         nombreDom.textContent = element.nombre;
         productoDom.appendChild(nombreDom);
+
         let precioDom = document.createElement("p");
         precioDom.textContent = "$" + element.precio;
         productoDom.appendChild(precioDom);
+
         let idDom = document.createElement("p");
         idDom.textContent = element.id;
         /* productoDom.appendChild(idDom); */
         let botonDom = document.createElement("button");
         botonDom.textContent = "Add";
         botonDom.classList.add("add");
+
         productoDom.appendChild(botonDom);
         if (botonDom) {
             botonDom.addEventListener("click", () => {
                 store.dispatch(accionAgregarProducto(element.id - 1));
             });
         }
+
         containerPrdocuts.appendChild(productoDom);
     })
 }
 
 function domSelectProducts() {
     let total = 0;
+
     const domContainerActuales = document.querySelector(".container-actuales");
     domContainerActuales.innerHTML = "";
+
     store.getState().products.forEach((element) => {
+
         total += parseInt(element.precio);
+        
         let productoDom = document.createElement("div");
         productoDom.classList.add("product-elegido");
 
